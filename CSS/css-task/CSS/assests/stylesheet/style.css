@@ -1,0 +1,39 @@
+.box {
+
+    background-color: yellow;
+    color: red;
+    text-align: center;
+    padding: 30px red;
+    border: 5px solid black;
+    margin: 25px;
+}
+
+.box1 {
+
+     background-color: rgb(250, 80, 80);
+    color: black;
+    text-align: center;
+    padding: 30px yellow;
+    border: 5px solid red;
+    margin: 25px;
+}
+
+.box2 {
+
+    background-color: antiquewhite;
+    color: red;
+    text-align: center; 
+    padding: 30px yellow;
+    border: 5px solid pink;
+    margin: 25px;
+}
+
+.box3 {
+
+    background-color: cyan;
+    color: black;
+    text-align: center;
+    padding: 30px yellow;
+    border: 5px solid blue;
+    margin: 25px;
+}

@@ -1,0 +1,39 @@
+.box1 {
+
+     background-color: orange;
+    color: white;
+    text-align: center;
+    padding: 30px red;
+    border: 5px solid rgb(106, 4, 4);
+    margin: 25px;
+}
+
+.box2 {
+
+     background-color: white;
+    color: black;
+    text-align: center;
+    padding: 30px yellow;
+    border: 5px solid black;
+    margin: 25px;
+}
+
+.box3 {
+
+    background-color: green;
+    color: white;
+    text-align: center; 
+    padding: 30px yellow;
+    border: 5px solid greenyellow;
+    margin: 25px;
+}
+
+.box4 {
+
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 30px yellow;
+    border: 5px solid yellow;
+    margin: 25px;
+}

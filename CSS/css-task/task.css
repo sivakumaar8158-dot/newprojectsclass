@@ -1,0 +1,29 @@
+ .body {
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-image: url("https://pbs.twimg.com/media/Gn5D8wAW0AA5wRo.jpg");
+      background-size: cover;
+      background-position: center;
+    }
+
+    .box {
+      background: rgba(245, 245, 245, 0.562); /* semi-transparent white */
+      padding: 40px;
+      border-radius: 10px;
+      text-align: center;
+      width: 300px;
+      border: dotted; color: black;
+    }
+
+        .box h1 {
+      font-size: 2rem; /* uses rem */
+      margin-bottom: 20px;
+    }
+
+    .box p {
+      font-size: 1em; /* depends on parent font */
+    }
+    
