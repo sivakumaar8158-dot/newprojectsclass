@@ -1,0 +1,97 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+.navbar{
+    background-color: black;
+    padding: 20px;
+    display: flex;
+    gap: 90px;
+    align-items: center;
+    color: azure;
+    justify-content: space-between;
+}
+.nav{
+    display: flex;
+    gap: 20px;
+}
+.nav a{
+    
+    color: white;
+    text-decoration:none;
+    
+}
+
+.logo{
+    display: flex;
+    color: azure;
+    gap: 20px;
+   
+
+}
+.logo img{
+       width: 100px;
+       height: 100px;
+}
+.search input{
+    width: 300px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: white;
+    border: solid 1px rgb(196, 196, 196);
+    padding: 20px;
+    font-size: 15px;
+}
+
+.name{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: larger;
+}
+.cards{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    padding: 20px;
+    background-color: rgb(241, 38, 38);
+    text-align: center;
+    transition: all 1s ease-in delay;
+
+}
+.cards:hover{
+    background-color:rgb(235, 12, 49);
+    border-radius: 30px;
+    border: 5px solid rgb(255, 251, 0);
+    transform:scale(2px,3px) ; 
+}
+.forms{
+    padding: 10px;
+    background-color: rgb(255, 251, 18);
+    text-align: center;
+    transition: all 1s ease-in delay;
+}
+.forms:hover{
+    background-color: blanchedalmond;
+    transform: scale(5px,6px);
+    border-radius: 20px;
+    border: 3px solid black;
+}
+.btn{
+    background-color: rgb(39, 28, 183);
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 10px;
+    transition: all 0.5s ease-out;
+}
+
+.btn:hover{
+    background-color: rgb(237, 217, 40);
+    color: white;
+    border:3px solid black;
+    transform: scale(20px,20px);
+}
