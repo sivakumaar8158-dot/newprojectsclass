@@ -1,0 +1,30 @@
+.index{
+    background-color: black;
+    border: 20px;
+    border: dotted white;
+    padding: 80px;
+}
+
+.index a{
+    color: white;
+    text-decoration: none;
+    justify-content: center;
+    padding: 20px;
+    justify-content: space-around;
+  
+}
+
+.myindex{
+    text-align: center;
+    background-color: black;
+    padding: 20px;
+    color: rgb(232, 11, 11);
+    border: dotted red;
+    
+
+}
+
+.backdrop{
+    background-color: aqua;
+
+}
