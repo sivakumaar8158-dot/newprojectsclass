@@ -1,17 +1,59 @@
-.index{
+.html {
+    background-color: black;
+    border: 20px;
+    border: dotted white;
+    padding: 80px;
+}
+.html a{
+    color: white;
+    text-decoration: none;
+    justify-content: center;
+    padding: 10px;
+    display: flex;
+  
+}
+
+.html h2{
+    color: red;
+}
+
+.css {
+    background-color: black;
+    border: 20px;
+    border: dotted white;
+    padding: 80px;
+}
+.css a{
+    color: white;
+    text-decoration: none;
+    justify-content: center;
+    padding: 10px;
+    display: flex;
+
+}
+
+.css h2{
+    color: red;
+}
+
+.js {
     background-color: black;
     border: 20px;
     border: dotted white;
     padding: 80px;
 }
 
-.index a{
+.js a{
     color: white;
     text-decoration: none;
     justify-content: center;
-    padding: 20px;
-    justify-content: space-around;
-  
+    padding: 10px;
+    display: flex;
+
+}
+
+.js h2{
+    color: red;
 }
 
 .myindex{
