@@ -34,7 +34,7 @@
         <button id="cashbtn" style=" background-color: aqua;color: black;margin-top: 20px;"><b>Pay Now</b></button>
     </div>
 
-    <p id="message" style="display: none;text-align: center;"> <b>Thank you for Your Order!! Your Order is Being Prepared</b></p>
+    
     
 
     <script>
@@ -42,7 +42,6 @@
         let Products = document.getElementById("avlproducts")
         let Available = document.getElementById("myproducts")
         let pay = document.getElementById("paymentbtn")
-        let confirmmsg = document.getElementById("message")
         let avlimage = document.getElementById("sourceimg")
 
           Available.addEventListener("click",()=>{
@@ -68,12 +67,11 @@
         })
 
         pay.addEventListener("click",()=>{
-            if(confirmmsg.style.display === "none"){
-                confirmmsg.style.display = "block"
-            }
+            alert("Thank you for Your Order!! Your Order is Being Prepared")
+            
 
             
-        })
+        });
 
 
 
