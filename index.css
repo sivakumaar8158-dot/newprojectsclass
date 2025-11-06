@@ -1,77 +1,87 @@
-.html {
-    background-color: black;
-    border: 20px;
-    border: dotted white;
-    padding: 80px;
+/* index.css */
+
+body {
+    background: radial-gradient(circle at top left, #0f2027, #203a43, #2c5364);
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
 }
 
-.html a{
-    color: white;
-    text-decoration: none;
-    justify-content: center;
-    padding: 10px;
-    display: flex;
-    font-style: italic;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: x-large;
-
+.backdrop {
+    padding: 40px;
 }
 
-.html h2{
-    color: red;
-}
-
-.css {
-    background-color: black;
-    border: 20px;
-    border: dotted white;
-    padding: 80px;
-}
-.css a{
-    color: white;
-    text-decoration: none;
-    justify-content: center;
-    padding: 10px;
-    display: flex;
-    font-style: italic;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: x-large;
-
-}
-
-.css h2{
-    color: red;
-}
-
-.js {
-    background-color: black;
-    border: 20px;
-    border: dotted white;
-    padding: 80px;
-}
-
-.js a{
-    color: white;
-    text-decoration: none;
-    justify-content: center;
-    padding: 10px;
-    display: flex;
-    font-style: italic;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: x-large;
-
-}
-
-.js h2{
-    color: red;
-}
-
-.myindex{
+.myindex h1 {
     text-align: center;
-    background-color: black;
-    padding: 20px;
-    color: rgb(232, 11, 11);
-    border: dotted red;
-    
+    font-size: 3rem;
+    letter-spacing: 2px;
+    color: #00d4ff;
+    text-shadow: 0 0 20px #00d4ff, 0 0 40px #0077ff;
+    margin-bottom: 40px;
+}
 
+.html, .css, .js {
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(8px);
+    border-radius: 20px;
+    padding: 30px;
+    margin: 30px auto;
+    max-width: 900px;
+    box-shadow: 0 0 20px rgba(0, 255, 255, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.html:hover, .css:hover, .js:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 40px rgba(0, 255, 255, 0.4);
+}
+
+h2 {
+    color: #00ffcc;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    background-color: rgba(0, 255, 255, 0.1);
+    padding: 10px 15px;
+    border-radius: 10px;
+    margin: 8px 0;
+    transition: all 0.3s ease;
+    font-weight: 500;
+}
+
+a:hover {
+    background-color: #00ffff;
+    color: #000;
+    transform: translateX(10px);
+}
+
+@media (max-width: 768px) {
+    .myindex h1 {
+        font-size: 2.2rem;
+    }
+    .html, .css, .js {
+        padding: 20px;
+    }
+    a {
+        font-size: 0.9rem;
+    }
+}
+
+body {
+  background: radial-gradient(circle at top left, #0f2027, #203a43, #2c5364);
+  font-family: 'Orbitron', sans-serif;
+  color: #fff;
+}
+
+.myindex h1, h2 {
+  font-family: 'Orbitron', sans-serif;
+  letter-spacing: 2px;
+  text-transform: uppercase;
 }
