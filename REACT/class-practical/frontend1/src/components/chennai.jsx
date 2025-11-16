@@ -1,10 +1,14 @@
-export const chennai = () => {
+import Navbar from "./navbar"
+
+export const Chennai = () => {
     return (
         <>
-        <div>
-            <h1>Welcome to Chennai</h1>
+        <div style={ 
+            {backgroundColor: "black", padding: "7px", color: "white" } }>
+            <h1><center>Chennai It-companies & Robotics</center></h1>
         </div>
+        <Navbar/>
         </>
     )
 }
-export default chennai
+export default Chennai;

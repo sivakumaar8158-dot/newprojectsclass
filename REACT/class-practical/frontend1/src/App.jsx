@@ -1,13 +1,22 @@
-import chennai from "./components/chennai"
+import Chennai from "./components/chennai";
+import Kerala from "./components/Kerala";
 
 
-const App = ()=>{
-    return(
+const App = () =>{
+
+    return (
         <>
-        <chennai/>
+        <div> 
+            <Chennai/>
+        </div>
 
-
+        <div>
+            <Kerala/>
+        </div>
+       
         </>
     )
 }
-export default App
+
+
+export default App;
