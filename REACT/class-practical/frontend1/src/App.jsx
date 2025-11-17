@@ -1,4 +1,5 @@
 import Chennai from "./components/chennai";
+import Karnataka from "./components/Karnataka";
 import Kerala from "./components/Kerala";
 
 
@@ -12,6 +13,9 @@ const App = () =>{
 
         <div>
             <Kerala/>
+        </div>
+        <div>
+            <Karnataka/>
         </div>
        
         </>
