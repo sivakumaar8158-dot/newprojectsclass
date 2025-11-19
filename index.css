@@ -21,7 +21,7 @@ body {
     margin-bottom: 40px;
 }
 
-.html, .css, .js, .bootstrap, .react, .world {
+.html, .css, .js, .bootstrap, .world {
     background: rgba(255, 255, 255, 0.05);
     backdrop-filter: blur(8px);
     border-radius: 20px;
@@ -32,7 +32,7 @@ body {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.html:hover, .css:hover, .js:hover, .bootstrap:hover, .react:hover, .world:hover {
+.html:hover, .css:hover, .js:hover, .bootstrap:hover,  .world:hover {
     transform: translateY(-5px);
     box-shadow: 0 0 40px rgba(0, 255, 255, 0.4);
 }
