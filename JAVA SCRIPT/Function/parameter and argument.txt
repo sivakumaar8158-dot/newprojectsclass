@@ -47,7 +47,7 @@ customerName(4,5);
 const CustomerPhonenumber =(phone no  1 ,phone no 2)=>{
 console.log(phone no  1 ,phone no 2);
 }
-CustomerPhonenumber(6379669174,7904989068);
+CustomerPhonenumber(1234567890,0987654321);
 
 
 const TotalCustomer =(customer)=>{
@@ -67,7 +67,7 @@ ticketAmount(120,160);
 const customer_gender =(customer 1 ,customer 2)=>{
 console.log(customer 1 ,customer 2);
 }
-customer_gender(female,female);
+customer_gender(male,male);
 
 
 
